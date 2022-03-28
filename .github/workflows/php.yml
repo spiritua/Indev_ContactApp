@@ -33,7 +33,7 @@ jobs:
 
       # Run composer to install all dependencies
       - name: Install composer dependencies
-        run: php composer.phar install
+        run: php composer.phar update phpspec/prophecy-phpunit
 
       # Now run the PHPUnit tests
       - name: Run PHPUnit tests
