@@ -30,6 +30,10 @@ jobs:
       # We need to install composer.phar first in the system
       - name: Install composer
         run: curl --show-error --silent https://getcomposer.org/installer | php
+        
+      # init composer
+      - name: Init composer
+        run: composer init
 
       # Run composer to install all dependencies
       - name: Install composer dependencies
