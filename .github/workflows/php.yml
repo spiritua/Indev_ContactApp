@@ -33,7 +33,7 @@ jobs:
         
       # init composer
       - name: Init composer
-        run: composer init
+        run: composer init --name Boris --description TP IndustVEV --author BORIS --type [PHP] --homepage index.php --require phpspec/prophecy-phpunit --require-dev phpspec/prophecy-phpunit -s|--stability yes -l|--license  --repository https://github.com/spiritua/Indev_ContactApp -a|--autoload AUTOLOAD
 
       # Run composer to install all dependencies
       - name: Install composer dependencies
