@@ -1,0 +1,10 @@
+{
+    "name": "boris/composer",
+    "authors": [
+        {
+            "name": "spiritua",
+            "email": "arnaudbt3@gmail.com"
+        }
+    ],
+    "require": {}
+}
