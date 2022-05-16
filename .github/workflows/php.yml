@@ -28,7 +28,7 @@ jobs:
           extensions: xdebug, intl, pdo_mysql, pdo
 
       # We need to install composer.phar first in the system
-      - name: Install composer
+      - name: Install compose
         run: curl --show-error --silent https://getcomposer.org/installer | php
 
       # Run composer to install all dependencies
