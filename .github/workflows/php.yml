@@ -38,7 +38,8 @@ jobs:
       # Now run the PHPUnit tests
       - name: Run PHPUnit tests
         run: 
-          chmod +x ./vendor/phpunit/phpunit/phpunit tests
+          chmod +x ./vendor/phpunit/phpunit/phpunit tests && 
+          ./vendor/phpunit/phpunit/phpunit --configuration=phpunit.xml --coverage-clover ./build/coverage/log/coverage.xml
           
 
       # For code coverage report we are uploading our code coverage report to scrutinizer
