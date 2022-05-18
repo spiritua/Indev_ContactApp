@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ConnexionTest::testsetUpBeforeClass":5,"ConnexionTest::testtearDownAfterClass":5,"EnvoiTest::testenvoi":5},"times":{"ConnexionTest::testsetUpBeforeClass":0.009,"ConnexionTest::testtearDownAfterClass":0.001,"EnvoiTest::testenvoi":0.013,"ModificationTest::testmodification":0.032}}

@@ -2,7 +2,11 @@
 require_once 'vendor/autoload.php';
 
 use PHPUnit\Framework\TestCase;
-
+/**
+ * * @covers connexionbd.php
+ *
+ * @internal
+ */
 class ModificationTest extends TestCase
 {
     public function testmodification(){
