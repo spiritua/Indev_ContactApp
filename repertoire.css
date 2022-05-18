@@ -1,0 +1,41 @@
+#contact1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #contact1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; 
+    width: 33.33%;
+  }
+  
+  #contact2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  #contact2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; 
+    width: 33.33%;
+
+  }
+
+  
+  #contact1 tr:nth-child(even){background-color: #f2f2f2; }
+  
+  #contact1 tr:hover {background-color: #ddd;}
+  
+  #contact1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+   
+  }
