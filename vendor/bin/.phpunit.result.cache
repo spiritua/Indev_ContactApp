@@ -1,0 +1,1 @@
+{"version":1,"defects":{"EnvoiTest::test_multiply":4,"EnvoiTest::test_envoi":4,"ConnexionTest::test_envoi":4,"ConnexionTest::test_connexion":4},"times":{"EnvoiTest::test_multiply":0.005,"EnvoiTest::test_envoi":0.018,"ConnexionTest::test_envoi":0.264,"ConnexionTest::test_connexion":0.007}}

@@ -1,0 +1,15 @@
+{
+    "name": "boris/composer",
+    "authors": [
+        {
+            "name": "spiritua",
+            "email": "arnaudbt3@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-0": { "": "vendor/phpunit/phpunit" }
+    }
+}

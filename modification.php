@@ -2,10 +2,10 @@
 
 // Connexion à la base de données
 require_once("connexionbd.php");
-}
+
 $id = $_POST['id'];
 $nom = $_POST['nom'];
-$prenom = $_POST['prenom']
+$prenom = $_POST['prenom'];
 echo "suppression de :".$id;
 // Insertion du message à l'aide d'une requête préparée
 $req = $bdd->prepare('UPDATE contact SET nom = :nom,
